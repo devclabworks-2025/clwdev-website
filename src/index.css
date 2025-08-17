@@ -1,0 +1,42 @@
+/* stylelint-disable at-rule-no-unknown */
+/* Inter Display Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Display:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* tailwindcss base styles */
+@tailwind base;
+/* tailwindcss component styles */
+@tailwind components;
+/* tailwindcss utility styles */
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter Display', system-ui, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
+
+@layer components {
+  /* Custom scrollbar for webkit browsers */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #2B2B2B;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+  }
+} 
