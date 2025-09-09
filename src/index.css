@@ -1,6 +1,6 @@
 /* stylelint-disable at-rule-no-unknown */
-/* Inter Display Font Family */
-@import url('https://fonts.googleapis.com/css2?family=Inter+Display:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Khtekatrial Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Khtekatrial:wght@400;500&display=swap');
 
 /* tailwindcss base styles */
 @tailwind base;
@@ -15,7 +15,7 @@
   }
   
   body {
-    font-family: 'Inter Display', system-ui, sans-serif;
+    font-family: 'Khtekatrial', system-ui, sans-serif;
     background-color: #000000;
     color: #ffffff;
   }
@@ -38,5 +38,16 @@
   
   ::-webkit-scrollbar-thumb:hover {
     background: #404040;
+  }
+  
+  /* Khtekatrial Font Utilities */
+  .font-khtekatrial-regular {
+    font-family: 'Khtekatrial', system-ui, sans-serif;
+    font-weight: 400;
+  }
+  
+  .font-khtekatrial-medium {
+    font-family: 'Khtekatrial', system-ui, sans-serif;
+    font-weight: 500;
   }
 } 

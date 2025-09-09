@@ -12,7 +12,8 @@ export default {
         'clw-accent': '#3b82f6'
       },
       fontFamily: {
-        'sans': ['Inter', 'system-ui', 'sans-serif']
+        'sans': ['Khtekatrial', 'system-ui', 'sans-serif'],
+        'khtekatrial': ['Khtekatrial', 'system-ui', 'sans-serif']
       },
       animation: {
         'fade-in-down': 'fadeInDown 0.6s ease-out',
